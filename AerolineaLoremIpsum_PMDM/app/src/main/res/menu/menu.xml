@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/enlaces">
+        <menu >
+            <item
+                android:id="@+id/moDestinos"
+                android:title="@string/destinos" />
+            <item
+                android:id="@+id/moMaletas"
+                android:title="@string/maletas_recomendadas" />
+            <item
+                android:id="@+id/moHoteles"
+                android:title="@string/mejores_hoteles" />
+        </menu>
+    </item>
+    <item android:title="@string/mi_cuenta">
+        <menu>
+            <item android:title="@string/datos_personales" />
+            <item android:title="@string/mis_documentos_de_viajes" />
+            <item android:title="@string/mis_compa_eros_de_viaje" />
+        </menu>
+    </item>
+    <item android:title="@string/mis_viajes" />
+    <item android:title="@string/tarjetas_de_embarque" />
+    <item android:title="@string/informaci_n_sobre_el_vuelo" />
+    <item android:title="@string/info_actualizada" />
+    <item android:title="@string/vales_de_regalo" />
+    <item android:title="@string/revista_de_vuelo" />
+    <item android:title="@string/t_rmino_y_codiciones" />
+    <item android:title="@string/centro_de_ayuda" />
+    <item android:title="@string/contactar_con_la_aerol_nea" />
+    <item android:title="@string/pol_tica_de_privacidad" />
+    <item android:title="@string/configuraci_n_de_privacidad" />
+</menu>
